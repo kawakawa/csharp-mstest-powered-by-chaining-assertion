@@ -10,7 +10,7 @@ namespace SampleLibrary.Test
     public void TestSay()
     {
       var sample = new Sample();
-      Assert.AreEqual("Hello TDD Boot Camp!", sample.Say());
+      sample.Say().Is("Hello TDD Boot Camp!");
     }
   }
 }
